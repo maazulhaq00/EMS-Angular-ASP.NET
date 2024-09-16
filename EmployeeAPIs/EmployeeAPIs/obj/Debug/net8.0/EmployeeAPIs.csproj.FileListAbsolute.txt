@@ -273,3 +273,4 @@ C:\Users\maaz ul haq\Desktop\EMS\EmployeeAPIs\EmployeeAPIs\obj\Debug\net8.0\refi
 C:\Users\maaz ul haq\Desktop\EMS\EmployeeAPIs\EmployeeAPIs\obj\Debug\net8.0\EmployeeAPIs.pdb
 C:\Users\maaz ul haq\Desktop\EMS\EmployeeAPIs\EmployeeAPIs\obj\Debug\net8.0\EmployeeAPIs.genruntimeconfig.cache
 C:\Users\maaz ul haq\Desktop\EMS\EmployeeAPIs\EmployeeAPIs\obj\Debug\net8.0\ref\EmployeeAPIs.dll
+C:\Users\maaz ul haq\Desktop\EMS\EmployeeAPIs\EmployeeAPIs\obj\Debug\net8.0\EmployeeAPIs.sourcelink.json

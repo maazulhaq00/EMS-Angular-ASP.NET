@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Email</th>
+        <th scope="col">Salary</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employeeList">
+        <th scope="row">{{employee.employeeId}}</th>
+        <td scope="row">{{employee.employeeName}}</td>
+        <td scope="row">{{employee.employeeAge}}</td>
+        <td scope="row">{{employee.employeePhone}}</td>
+        <td scope="row">{{employee.employeeEmail}}</td>
+        <td scope="row">{{employee.employeeSalary}}</td>
+      </tr>
+    </tbody>
+  </table>

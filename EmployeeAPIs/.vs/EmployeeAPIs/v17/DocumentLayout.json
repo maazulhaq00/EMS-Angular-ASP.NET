@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\",
+  "WorkspaceRootPath": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\ems\\employeeapis\\employeeapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\work\\ems-angular-asp.net\\employeeapis\\employeeapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|solutionrelative:employeeapis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\ems\\employeeapis\\employeeapis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|solutionrelative:employeeapis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\ems\\employeeapis\\employeeapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\work\\ems-angular-asp.net\\employeeapis\\employeeapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|solutionrelative:employeeapis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\ems\\employeeapis\\employeeapis\\employeeapis.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\work\\ems-angular-asp.net\\employeeapis\\employeeapis\\employeeapis.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|solutionrelative:employeeapis\\employeeapis.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|c:\\users\\maaz ul haq\\desktop\\work\\ems-angular-asp.net\\employeeapis\\employeeapis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E7E230A-5804-4685-B170-89826E2060A6}|EmployeeAPIs\\EmployeeAPIs.csproj|solutionrelative:employeeapis\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,49 +29,55 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EmployeeAPIs\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "EmployeeAPIs\\Controllers\\EmployeeController.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T14:14:50.484Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeAPIs\\appsettings.json",
+              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
+              "RelativeToolTip": "EmployeeAPIs\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T09:40:45.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeeAPIs\\appsettings.json",
-              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
-              "RelativeToolTip": "EmployeeAPIs\\appsettings.json",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-13T09:40:45.099Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "EmployeeAPIs.http",
-              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.http",
+              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.http",
               "RelativeDocumentMoniker": "EmployeeAPIs\\EmployeeAPIs.http",
-              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.http",
+              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.http",
               "RelativeToolTip": "EmployeeAPIs\\EmployeeAPIs.http",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-13T09:40:35.883Z"
+              "WhenOpened": "2024-09-13T09:40:35.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeAPIs\\Program.cs",
-              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\Program.cs",
+              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\Program.cs",
               "RelativeToolTip": "EmployeeAPIs\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T09:40:32.963Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeAPIs\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeAPIs\\Controllers\\EmployeeController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T14:14:50.484Z"
             }
           ]
         }

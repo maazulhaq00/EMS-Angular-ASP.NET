@@ -4529,11 +4529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.csproj",
+      "projectUniqueName": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.csproj",
       "projectName": "EmployeeAPIs",
-      "projectPath": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.csproj",
+      "projectPath": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\EmployeeAPIs.csproj",
       "packagesPath": "C:\\Users\\maaz ul haq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\obj\\",
+      "outputPath": "C:\\Users\\maaz ul haq\\Desktop\\Work\\EMS-Angular-ASP.NET\\EmployeeAPIs\\EmployeeAPIs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

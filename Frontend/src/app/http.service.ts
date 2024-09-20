@@ -15,4 +15,11 @@ export class HttpService {
     return this.httpClient.get<IEmployee[]>( this.apiUrl + "/api/Employee")
   }
 
+  public createEmployee(employee:IEmployee) {
+
+    return this.httpClient.post(this.apiUrl + "/api/Employee", employee)
+  }
+
+
+
 }

@@ -3,6 +3,6 @@ export interface IEmployee {
     employeeName: string,
     employeeEmail: string,
     employeePhone: string,
-    employeeAge: number,
-    employeeSalary: number
+    employeeAge: string,
+    employeeSalary: string
 }

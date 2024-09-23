@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { FormBuilder, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { HttpService } from '../../http.service';
 import { IEmployee } from '../../interfaces/employee';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-employee',
@@ -14,6 +15,19 @@ export class AddEmployeeComponent {
   
   formBuilder = inject(FormBuilder)
   httpService = inject(HttpService)
+  router = inject(Router)
+  
+  activedRoute = inject(ActivatedRoute)
+
+  empId!:number
+  isEdit: boolean = false
+
+  ngOnInit(){
+    this.empId = this.activedRoute.snapshot.params["id"];
+    if(this.empId){
+      this.isEdit = true
+    }
+  }
 
   EmployeeForm = this.formBuilder.group({
     name: ['', [Validators.required]],
@@ -37,7 +51,10 @@ export class AddEmployeeComponent {
     }
 
     this.httpService.createEmployee(employee).subscribe(()=>{
-      console.log("Employee Added");
+      // console.log("Employee Added");
+
+      this.router.navigateByUrl('/employees')
+
     })
   }
 

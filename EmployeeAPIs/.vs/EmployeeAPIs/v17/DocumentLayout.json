@@ -26,20 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeeAPIs\\appsettings.json",
-              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
-              "RelativeToolTip": "EmployeeAPIs\\appsettings.json",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-13T09:40:45.099Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -57,11 +45,22 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeAPIs\\Program.cs",
-              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\Program.cs*",
-              "RelativeToolTip": "EmployeeAPIs\\Program.cs*",
+              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\Program.cs",
+              "RelativeToolTip": "EmployeeAPIs\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T09:40:32.963Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeAPIs\\appsettings.json",
+              "ToolTip": "C:\\Users\\maaz ul haq\\Desktop\\EMS\\EmployeeAPIs\\EmployeeAPIs\\appsettings.json",
+              "RelativeToolTip": "EmployeeAPIs\\appsettings.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T09:40:45.099Z"
             },
             {
               "$type": "Document",

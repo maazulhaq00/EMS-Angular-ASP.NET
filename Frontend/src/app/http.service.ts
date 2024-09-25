@@ -20,6 +20,17 @@ export class HttpService {
     return this.httpClient.post(this.apiUrl + "/api/Employee", employee)
   }
 
+  public getEmployee(id : number) {
+    return this.httpClient.get<IEmployee>( this.apiUrl+"/api/Employee/"+id)
+  }
 
+  public editEmployee(id : number, employee:IEmployee) {
+
+    return this.httpClient.put(this.apiUrl + "/api/Employee/"+id , employee)
+  }
+
+  public deleteEmployee(id : number) {
+    return this.httpClient.delete(this.apiUrl + "/api/Employee/"+id )
+  }
 
 }

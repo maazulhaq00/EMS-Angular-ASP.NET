@@ -12,20 +12,33 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrl: './add-employee.component.css'
 })
 export class AddEmployeeComponent {
-  
+
   formBuilder = inject(FormBuilder)
   httpService = inject(HttpService)
   router = inject(Router)
-  
   activedRoute = inject(ActivatedRoute)
 
-  empId!:number
+  empId!: number
   isEdit: boolean = false
 
-  ngOnInit(){
+  ngOnInit() {
     this.empId = this.activedRoute.snapshot.params["id"];
-    if(this.empId){
+    if (this.empId) {
       this.isEdit = true
+
+      this.httpService.getEmployee(this.empId).subscribe((result) => {
+
+        let employee = {
+          name: result.employeeName,
+          age: result.employeeAge,
+          email: result.employeeEmail,
+          phone: result.employeePhone,
+          salary: result.employeeSalary
+        }
+
+        this.EmployeeForm.patchValue(employee)
+
+      })
     }
   }
 
@@ -38,11 +51,11 @@ export class AddEmployeeComponent {
   });
 
   handleEmployeeSubmit() {
-    
+
     console.log(this.EmployeeForm.value);
 
-    let employee : IEmployee = {
-      employeeId: 0,
+    let employee: IEmployee = {
+      employeeId: this.isEdit ? this.empId : 0,
       employeeName: this.EmployeeForm.value.name!,
       employeeAge: this.EmployeeForm.value.age!,
       employeeEmail: this.EmployeeForm.value.email!,
@@ -50,12 +63,24 @@ export class AddEmployeeComponent {
       employeeSalary: this.EmployeeForm.value.salary!,
     }
 
-    this.httpService.createEmployee(employee).subscribe(()=>{
-      // console.log("Employee Added");
+    if (this.isEdit) {
 
-      this.router.navigateByUrl('/employees')
+      this.httpService.editEmployee(this.empId, employee).subscribe(() => {
+        // console.log("Employee Update");
 
-    })
+        this.router.navigateByUrl('/employees')
+
+      })
+    } else {
+
+      this.httpService.createEmployee(employee).subscribe(() => {
+        // console.log("Employee Added");
+  
+        this.router.navigateByUrl('/employees')
+  
+      })
+    }
+
   }
 
 

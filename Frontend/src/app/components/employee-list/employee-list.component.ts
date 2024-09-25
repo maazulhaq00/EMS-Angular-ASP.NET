@@ -20,6 +20,10 @@ export class EmployeeListComponent {
   router = inject(Router)
 
   ngOnInit(){
+    this.getEmployees()
+  }
+
+  getEmployees(){
     this.httpService.getAllEmployees().subscribe((result)=>{
       this.employeeList = result
       console.log(this.employeeList);
@@ -33,7 +37,12 @@ export class EmployeeListComponent {
   }
   delete(id: number){
     console.log("Delete: " + id);
-    
+    this.httpService.deleteEmployee(id).subscribe(()=>{
+      console.log("Deleted");
+      // this.employeeList = this.employeeList.filter(emp => emp.employeeId != id);
+
+      this.getEmployees()
+    })
   }
 
 }

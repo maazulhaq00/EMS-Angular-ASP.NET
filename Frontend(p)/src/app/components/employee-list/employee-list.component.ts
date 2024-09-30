@@ -1,7 +1,9 @@
 import { Component, inject } from '@angular/core';
-import { IEmployee } from '../../interfaces/employee';
 import { HttpService } from '../../http.service';
+import { IEmployee } from '../../interfaces/employee';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-employee-list',
@@ -11,15 +13,39 @@ import { CommonModule } from '@angular/common';
   styleUrl: './employee-list.component.css'
 })
 export class EmployeeListComponent {
-  
-  employeeList : IEmployee[] = [];
 
-  httpService = inject(HttpService);
-  
+  employeeList : IEmployee[] = []
+
+  constructor(private httpService : HttpService){}
+
+  router = inject(Router)
+  toastr = inject(ToastrService)
+
   ngOnInit(){
-    this.httpService.getAllEmployees().subscribe((result) => {
-      this.employeeList = result;
+    this.getEmployees()
+  }
+
+  getEmployees(){
+    this.httpService.getAllEmployees().subscribe((result)=>{
+      this.employeeList = result
       console.log(this.employeeList);
+      
     })
   }
+
+  edit(id: number){
+    console.log("Edit: " + id);
+    this.router.navigateByUrl("/edit-employee/"+id)
+  }
+  delete(id: number){
+    console.log("Delete: " + id);
+    this.httpService.deleteEmployee(id).subscribe(()=>{
+      console.log("Deleted");
+      // this.employeeList = this.employeeList.filter(emp => emp.employeeId != id);
+      this.toastr.success("Employee Deleted Successfully", "Success")
+
+      this.getEmployees()
+    })
+  }
+
 }

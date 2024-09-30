@@ -3,6 +3,7 @@ import { HttpService } from '../../http.service';
 import { IEmployee } from '../../interfaces/employee';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-employee-list',
@@ -18,6 +19,7 @@ export class EmployeeListComponent {
   constructor(private httpService : HttpService){}
 
   router = inject(Router)
+  toastr = inject(ToastrService)
 
   ngOnInit(){
     this.getEmployees()
@@ -40,6 +42,7 @@ export class EmployeeListComponent {
     this.httpService.deleteEmployee(id).subscribe(()=>{
       console.log("Deleted");
       // this.employeeList = this.employeeList.filter(emp => emp.employeeId != id);
+      this.toastr.success("Employee Deleted Successfully", "Success")
 
       this.getEmployees()
     })

@@ -3,6 +3,7 @@ import { FormBuilder, FormsModule, ReactiveFormsModule, Validators } from '@angu
 import { HttpService } from '../../http.service';
 import { IEmployee } from '../../interfaces/employee';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-add-employee',
@@ -17,6 +18,7 @@ export class AddEmployeeComponent {
   httpService = inject(HttpService)
   router = inject(Router)
   activedRoute = inject(ActivatedRoute)
+  toastr = inject(ToastrService)
 
   empId!: number
   isEdit: boolean = false
@@ -68,6 +70,8 @@ export class AddEmployeeComponent {
       this.httpService.editEmployee(this.empId, employee).subscribe(() => {
         // console.log("Employee Update");
 
+        this.toastr.success("Employee Editted Successfully", "Success")
+
         this.router.navigateByUrl('/employees')
 
       })
@@ -75,6 +79,8 @@ export class AddEmployeeComponent {
 
       this.httpService.createEmployee(employee).subscribe(() => {
         // console.log("Employee Added");
+
+        this.toastr.success("Employee Added Successfully", "Success")
   
         this.router.navigateByUrl('/employees')
   

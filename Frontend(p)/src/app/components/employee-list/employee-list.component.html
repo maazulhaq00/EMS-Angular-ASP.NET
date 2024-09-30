@@ -4,19 +4,26 @@
         <th scope="col">#</th>
         <th scope="col">Name</th>
         <th scope="col">Age</th>
-        <th scope="col">Phone</th>
         <th scope="col">Email</th>
+        <th scope="col">Phone</th>
         <th scope="col">Salary</th>
-    </tr>
+        <th scope="col">Actions</th>
+      </tr>
     </thead>
     <tbody>
+
       <tr *ngFor="let employee of employeeList">
         <th scope="row">{{employee.employeeId}}</th>
-        <td scope="row">{{employee.employeeName}}</td>
-        <td scope="row">{{employee.employeeAge}}</td>
-        <td scope="row">{{employee.employeePhone}}</td>
-        <td scope="row">{{employee.employeeEmail}}</td>
-        <td scope="row">{{employee.employeeSalary}}</td>
+        <td>{{employee.employeeName}}</td>
+        <td>{{employee.employeeAge}}</td>
+        <td>{{employee.employeeEmail}}</td>
+        <td>{{employee.employeePhone}}</td>
+        <td>{{employee.employeeSalary}}</td>
+        <td>
+          <button class="btn btn-dark" (click)="edit(employee.employeeId)">Edit</button> 
+          <button class="btn btn-danger" (click)="delete(employee.employeeId)">Delete</button>
+        </td>
       </tr>
+    
     </tbody>
   </table>
